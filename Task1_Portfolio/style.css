@@ -1,0 +1,101 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+header {
+  background: #2c3e50;
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+nav {
+  background: #34495e;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+section {
+  padding: 2rem;
+  max-width: 900px;
+  margin: auto;
+}
+
+section h2 {
+  color: #2c3e50;
+  margin-bottom: 1rem;
+}
+
+img {
+  border-radius: 10px;
+  display: block;
+  margin: 1rem auto;
+}
+
+ul {
+  list-style: square;
+  padding-left: 20px;
+}
+
+.project,
+.certification,
+.achievement {
+  margin-bottom: 1rem;
+}
+
+a {
+  color: #2980b9;
+}
+
+.btn {
+  display: inline-block;
+  background: #2980b9;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+.btn:hover {
+  background: #3498db;
+}
+
+footer {
+  text-align: center;
+  background: #2c3e50;
+  color: white;
+  padding: 1rem;
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+  nav {
+    font-size: 0.9rem;
+  }
+
+  section {
+    padding: 1.5rem 1rem;
+  }
+
+  img {
+    width: 100px;
+  }
+}
